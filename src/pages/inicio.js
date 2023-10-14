@@ -4,7 +4,7 @@ import BestSellersSection from '../components/bestsellerssection'; // Asegúrate
 import {
     Text,
 } from '@chakra-ui/react'
-import { AiFillCreditCard, AiOutlineQuestion} from 'react-icons/ai';
+import { AiFillCreditCard, AiOutlineQuestion } from 'react-icons/ai';
 import { MdAttachMoney } from 'react-icons/md'
 function Inicio() {
     return (
@@ -20,7 +20,6 @@ function Inicio() {
                             DESCUENTO POR PAGO EN EFECTIVO
                         </Text>
                     </HStack>
-
                     <Text fontSize="sm" textAlign="center" letterSpacing="2px">
                         Todos los días 10% de descuento por pago en efectivo en el local.
                     </Text>
@@ -38,7 +37,7 @@ function Inicio() {
                 </VStack>
                 <VStack>
                     <HStack>
-                        <AiOutlineQuestion/>
+                        <AiOutlineQuestion />
                         <Text fontSize="sm" fontWeight="semibold" fontFamily="oswald" letterSpacing="2px" textTransform="uppercase">
                             CONSULTANOS EL STOCK
                         </Text>
