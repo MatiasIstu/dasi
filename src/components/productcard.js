@@ -29,20 +29,6 @@ const ProductCard = ({ product }) => {
       {product.description}
     </Text>
   </Box>
-
-  <Box p="4" textAlign="center">
-    <Badge
-      borderRadius="full"
-      px="3"
-      colorScheme="blue"
-      variant="solid"
-      fontSize="lg"
-      style={{ alignSelf: 'flex-end' }} // Esto alinea el precio en la parte inferior de su contenedor
-    >
-      ${product.price}
-    </Badge>
-  </Box>
-
 </Box>
 
 
