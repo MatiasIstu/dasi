@@ -14,7 +14,7 @@ function Contacto() {
             <VStack spacing="4" align="stretch" maxW="400px" m="auto">
               <Input type="text" placeholder="Nombre" />
               <Input type="email" placeholder="Correo Electrónico" />
-              <Textarea placeholder="Mensaje" resize="vertical" h="700px" />
+              <Textarea placeholder="Mensaje" resize="vertical" h="500px" />
               <Button colorScheme="teal" type="submit" w="100%">
                 Enviar Mensaje
               </Button>
