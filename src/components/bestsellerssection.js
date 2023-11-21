@@ -29,7 +29,7 @@ const BestSellersSection = () => {
 
   return (
     <Box>
-      <Text fontSize="2xl" fontWeight="semibold" mb={4} textAlign="center">
+      <Text fontSize="2xl" fontWeight="semibold" mb={20} textAlign="center">
         Nuestros mejores productos
       </Text>
       <HStack spacing={6} alignItems="flex-start" justifyContent="center" flexWrap="wrap">

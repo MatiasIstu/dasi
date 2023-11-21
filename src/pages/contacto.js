@@ -1,6 +1,7 @@
 import React from 'react';
-import { Box, Heading, VStack, Input, Textarea, Button, Flex, Icon, Grid } from '@chakra-ui/react';
+import { Box, Heading, VStack, Input, Textarea, Button, Flex, Image, Grid } from '@chakra-ui/react';
 import { FaWhatsapp } from 'react-icons/fa';
+import tortadechocolate from '../images/liebre.jpg';
 
 function Contacto() {
   return (
@@ -25,7 +26,7 @@ function Contacto() {
         <Box>
           <Flex direction="row" align="center" justifyContent="space-around">
             <Heading as="h2" mb="4">
-              O comunicate con nosotros por WhatsApp
+              O comunícate con nosotros por WhatsApp
             </Heading>
             <Button
               size="lg"
@@ -40,6 +41,9 @@ function Contacto() {
               <FaWhatsapp size="50" style={{ color: 'white' }} />
             </Button>
           </Flex>
+          <Box mt={{ base: '4', md: '20' }}>
+            <Image src={tortadechocolate} h="600px" w="auto" objectFit="fill" borderRadius="40" />
+          </Box>
         </Box>
       </Grid>
     </Box>
